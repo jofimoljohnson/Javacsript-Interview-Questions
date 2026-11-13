@@ -20,13 +20,13 @@ console.log([] + {});
 
 // Question 6: What will be the output of this code?
 
-// for (var i = 0; i < 3; i++) {
-//   setTimeout(() => console.log(i), 0);
-// }
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 0);
+}
 
-// for (let j = 0; j < 3; j++) {
-//   setTimeout(() => console.log(j), 0);
-// }
+for (let j = 0; j < 3; j++) {
+  setTimeout(() => console.log(j), 0);
+}
 
 // Answer: var is function scoped, so there is only one i shared by all three callbacks. setTimeout callbacks run only after the loop finishes, when i is already 3. let is block scoped, so each loop iteration gets its own j, and the callbacks print 0, 1, 2.
 
