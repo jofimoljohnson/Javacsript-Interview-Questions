@@ -16,6 +16,10 @@ console.log(null === undefined);
 // true
 // false
 
+console.log([] == false); // true
+console.log(null === null);//true
+console.log(typeof NaN); // number
+
 
 // Question 8: What will be the output of this code?
 
