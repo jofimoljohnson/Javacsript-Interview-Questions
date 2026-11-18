@@ -20,5 +20,10 @@
 // 📌 Question 18: Group Anagrams
 // 📌 Question 19: Merge Two Sorted Arrays
 // 📌 Question 20: Product of Array Except Self
+// 📌 Question 21: Container With Most Water
+// 📌 Question 22: Merge Intervals
+// 📌 Question 23: 3Sum
+// 📌 Question 24: Longest Palindromic Substring
+// 📌 Question 25: Spiral Matrix
 
 
